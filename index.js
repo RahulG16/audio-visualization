@@ -16,6 +16,7 @@ file.onchange = function () {
 };
 // Create an audio context
 const ctx = new AudioContext();
+ctx.resume();
 
 //create an audio source
 const audioSource = ctx.createMediaElementSource(audio);
