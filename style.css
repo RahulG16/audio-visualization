@@ -1,0 +1,71 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+
+  top: -50px;
+  right: -50px;
+  bottom: -50px;
+  left: -50px;
+
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+
+  filter: blur(4px);
+}
+
+#thefile {
+  position: relative;
+  background: rgba(255, 0, 0, 0.699);
+  top: 10px;
+  padding: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+audio {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+}
+
+.track-title {
+  position: relative;
+  top: 110px;
+  right: 0;
+  left: 0;
+
+  color: white;
+  font-family: "calibri", sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.visualizer {
+  position: relative;
+  width: 100px;
+  bottom: 250px;
+  right: 0;
+  left: 0;
+  top: 140px;
+
+  height: 190px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.visualizer_bar {
+  display: inline-block;
+  background: white;
+  margin: 0 2px;
+  height: 100px;
+  width: 25px;
+}
